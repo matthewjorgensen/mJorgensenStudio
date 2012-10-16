@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/matthewjorgensen/refinerycms-portfolio.git
+  revision: 75d0ddb6f36f9cecbe66f47122575f0797a7b472
+  branch: strip
+  specs:
+    refinerycms-portfolio (2.0.0)
+      awesome_nested_set (~> 2.1.0)
+      refinerycms-core (~> 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -179,6 +188,7 @@ DEPENDENCIES
   rails (= 3.2.8)
   refinerycms (~> 2.0.0)
   refinerycms-i18n (~> 2.0.0)
+  refinerycms-portfolio!
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
