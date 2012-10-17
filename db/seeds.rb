@@ -11,3 +11,6 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Portfolio Engine
 Refinery::Portfolio::Engine.load_seed
+
+# Added by Refinery CMS Hero Images extension
+Refinery::HeroImages::Engine.load_seed

@@ -1,0 +1,6 @@
+<% @homepage_hero_items.each do |homepage_hero_item| %>
+	<li class="">
+			<%= image_fu homepage_hero_item.photo, nil %>
+	</li>
+<% end %>
+<%= render '/refinery/content_page' %>

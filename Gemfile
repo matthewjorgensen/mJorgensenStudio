@@ -49,3 +49,5 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
 gem 'refinerycms-portfolio', :git => 'git://github.com/matthewjorgensen/refinerycms-portfolio.git', :branch => 'strip'
+
+gem 'refinerycms-hero_images', :path => 'vendor/extensions'
