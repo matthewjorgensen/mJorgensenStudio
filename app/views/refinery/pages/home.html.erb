@@ -1,6 +1,15 @@
-<% @homepage_hero_items.each do |homepage_hero_item| %>
-	<li class="">
-			<%= image_fu homepage_hero_item.photo, nil %>
-	</li>
-<% end %>
+<div class="carousel slide">
+	<ul class="carousel-inner unstyled">
+	<% @homepage_hero_items.each do |homepage_hero_item| %>
+		<% if homepage_hero_item.position == 0 %>
+		<li class="active item">
+		<% else %>
+		<li class="item">
+		<% end %>
+			<%= image_fu homepage_hero_item.photo,"1200x533#"  %>
+		</li>
+	<% end %>
+	</ul>
+</div>
+
 <%= render '/refinery/content_page' %>
