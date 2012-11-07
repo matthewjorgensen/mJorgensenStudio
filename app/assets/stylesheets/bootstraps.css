@@ -526,7 +526,7 @@ h5,
 h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -542,15 +542,15 @@ h6 small {
   color: #999999;
 }
 h1 {
-  font-size: 36px;
-  line-height: 40px;
-}
-h2 {
   font-size: 30px;
   line-height: 40px;
 }
-h3 {
+h2 {
   font-size: 24px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 20px;
   line-height: 40px;
 }
 h4 {
@@ -3693,7 +3693,7 @@ a.thumbnail:hover {
 }
 .carousel {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   line-height: 1;
 }
 .carousel-inner {
