@@ -31,9 +31,7 @@
 		    <% end %>
 		  <div class="details">
 	        <h3><%= gallery.title %></h3>
-	        <% if ::Refinery::Portfolio.display_gallery_text %>
-	          <%= raw gallery.description %>
-	        <% end %>
+	          <p><%= raw gallery.teaser %></p>
 	      </div>
 		</li>
 		<% end %>

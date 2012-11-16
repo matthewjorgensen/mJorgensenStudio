@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121016213445) do
+ActiveRecord::Schema.define(:version => 20121107222921) do
 
   create_table "refinery_hero_images", :force => true do |t|
     t.string   "title"
@@ -105,6 +105,7 @@ ActiveRecord::Schema.define(:version => 20121016213445) do
     t.string   "slug"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "teaser"
   end
 
   create_table "refinery_portfolio_gallery_translations", :force => true do |t|
